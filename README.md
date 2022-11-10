@@ -1,9 +1,7 @@
 # httpbin(1): HTTP Request & Response Service
 
 
-A [Kenneth Reitz](http://kennethreitz.org/bitcoin) Project.
-
-![ice cream](http://farm1.staticflickr.com/572/32514669683_4daf2ab7bc_k_d.jpg)
+A [Kenneth Reitz](https://twitter.com/kennethreitz42) Project.
 
 Run locally:
 ```sh
@@ -23,9 +21,5 @@ See http://httpbin.org for more information.
 ## SEE ALSO
 
 - http://requestb.in
-- http://python-requests.org
 - https://grpcb.in/
 
-## Build Status
-
-[![Build Status](https://travis-ci.org/requests/httpbin.svg?branch=master)](https://travis-ci.org/requests/httpbin)
