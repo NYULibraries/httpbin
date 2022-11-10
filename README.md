@@ -5,8 +5,8 @@ A [Kenneth Reitz](https://twitter.com/kennethreitz42) Project.
 
 Run locally:
 ```sh
-docker pull kennethreitz/httpbin
-docker run -p 80:80 kennethreitz/httpbin
+docker-compose build httpbin
+docker-compose up httpbin
 ```
 
 See http://httpbin.org for more information.
