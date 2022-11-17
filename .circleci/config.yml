@@ -18,6 +18,7 @@ jobs:
           name: Push image
           command: |
             export BRANCH_NO_SLASH=${CIRCLE_BRANCH//\//_}
+            docker tag << parameters.image >> quay.io/nyulibraries/<< parameters.image >>:latest
             docker tag httpbin quay.io/nyulibraries/httpbin:${BRANCH_NO_SLASH}
             docker tag httpbin quay.io/nyulibraries/httpbin:${BRANCH_NO_SLASH}-${CIRCLE_SHA1}
             docker login -u "$QUAY_USERNAME" --password "$QUAY_PASSWORD" quay.io
