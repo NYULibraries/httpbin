@@ -1,6 +1,7 @@
 version: '2'
 services:
     httpbin:
+      image: httpbin
       build: '.'
       ports:
         - '80:80'
